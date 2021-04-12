@@ -124,3 +124,7 @@ body {
     from{max-width:0%;}
     to{max-width:20%;}
 }
+a {
+    color: black;
+    text-decoration: none;
+}
