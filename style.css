@@ -1,0 +1,126 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Bahnschrift';
+}
+.pudlo {
+    filter: drop-shadow(0px 0px 20px black)drop-shadow(0px 0px 20px black);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tytul {
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.wybor{
+    background-color: white;
+    font-size: 25px;
+    padding: 7px;
+    text-align: center;
+}
+
+
+/*Kolory do podstron*/
+/*Linux*/
+.linp1 {
+    background-color: rgb(255, 204, 0);
+    height: 10px;
+}
+.linstop {
+    background-color: rgb(255, 204, 0);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+}
+/*Mint*/
+.mintp1 {
+    background-color: rgb(135, 207, 62);
+    height: 10px;
+}
+.mintstop {
+    background-color: rgb(135, 207, 62);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+}
+/*Ubuntu*/
+.ubunp1 {
+    background-color: rgb(221, 72, 20);
+    height: 10px;
+}
+.ubunstop {
+    background-color: rgb(221, 72, 20);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+}
+/*Fedora*/
+.fedp1 {
+    background-color: rgb(41, 65, 114);
+    height: 10px;
+}
+.fedstop {
+    background-color: rgb(41, 65, 114);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+}
+/*Debian*/
+.debp1 {
+    background-color: rgb(215, 7, 81);
+    height: 10px;
+}
+.debstop {
+    background-color: rgb(215, 7, 81);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+}
+/*OpenSUSE*/
+.susep1 {
+    background-color: rgb(115, 186, 37);
+    height: 10px;
+}
+.susestop {
+    background-color: rgb(115, 186, 37);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+}
+
+
+
+.linp11 {
+    background-color: rgb(34, 34, 34);
+    height: 5px;
+}
+.linp2 {
+    background-color: rgb(34, 34, 34);
+    height: 20px;
+}
+
+.tresc {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+.obraz {
+    max-width:20%;
+    height: auto;
+    animation: obrazek 0.7s ease;
+}
+@keyframes obrazek {
+    from{max-width:0%;}
+    to{max-width:20%;}
+}
